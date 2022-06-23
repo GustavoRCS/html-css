@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-size: 1.6em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgba(3, 3, 3, 0.37);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(3, 3, 3, 0.822);
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: rgb(163, 158, 158);
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead, tfoot{
+            background-color: rgba(68, 68, 68, 0.87);
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--Anatomima para tabelas grandes
+    table = tabela 
+        thead = cabeça da tabela
+            tr, td, th
+        
+        tbody = corpo da tabela
+            tr, td, th
+
+        tfoot pé da tabela
+            tr, td, th
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 985 284</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 597 484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 466 630</td>
+            </tr>
+            <tr>
+                <td>Pernanbuco</td>
+                <td class="num">9 674 793</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num">9 240 580</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 777 124</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 338 473</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 206 589</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 153 262</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 269 995</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">4 108 508</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 567 234</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 560 903</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 365 351</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>119,836,614</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi fugiat ex sunt non quasi eos consequatur quidem culpa amet earum consequuntur iusto mollitia, optio quaerat maxime! Veniam voluptatibus vero autem, omnis debitis, sed nisi est odio impedit sunt dignissimos error. Aut, quibusdam voluptates. Blanditiis molestias corrupti dolore officia placeat necessitatibus saepe aperiam aliquam aliquid. Nobis architecto animi aspernatur et quaerat molestias ipsa ea veniam quas expedita, voluptas dicta maiores laudantium? Accusantium, rem autem. Velit tenetur fuga a ad illum dolorum, deserunt amet reiciendis blanditiis ipsam voluptatem similique odit, obcaecati ullam suscipit minima! Ad molestiae eum aliquid harum consectetur tenetur iste reiciendis asperiores cumque id dolorum provident debitis modi ducimus veritatis aperiam velit, molestias quaerat fuga necessitatibus eligendi excepturi non ipsum. Delectus suscipit, facilis ratione, quisquam qui saepe repellat quibusdam illo, aperiam provident tenetur modi nulla quas dolore hic at! Delectus incidunt eaque officiis vel veritatis doloribus magni, earum consequatur quibusdam hic pariatur ex autem ipsa maxime totam voluptas sunt! Repudiandae qui ipsum sint minus sapiente veniam, perspiciatis eum magni adipisci accusamus aliquam commodi in voluptatibus voluptate labore fuga, excepturi velit maxime assumenda soluta deserunt doloribus eligendi. Perferendis minima praesentium sed expedita consectetur vero dolore veniam repellat ab amet? Aliquam voluptatibus suscipit, commodi reiciendis repudiandae omnis qui fuga tenetur mollitia ea nihil architecto laudantium, vitae dolorum inventore quod magnam saepe, nulla perferendis minima! Harum qui quibusdam fugit fugiat in, a quo facilis libero rerum debitis? Vel eos ea modi aut sit quae dolores odit repellendus dolor eligendi architecto ex corporis provident quam nihil corrupti labore iure maiores quibusdam assumenda qui vero, pariatur iste. Ad ab exercitationem, dignissimos sapiente quas aperiam praesentium velit modi corrupti saepe fugiat beatae soluta. Nostrum quae facere iste? Voluptates voluptatem cumque sed. Quaerat velit porro nulla non expedita tenetur ipsa esse laboriosam unde! Asperiores suscipit quaerat autem laboriosam mollitia facere at nobis voluptatibus nostrum modi rem laborum soluta facilis vel, officiis maxime. Harum, id. Sequi dolorum vel, numquam iste laborum ab, molestiae reprehenderit accusamus hic culpa ipsam optio qui nihil impedit et! Cumque, sapiente? Praesentium itaque sint porro tempore consequuntur voluptatum, esse officiis! Quo, aspernatur ex nihil reiciendis rem similique in dignissimos illum id blanditiis asperiores reprehenderit quos architecto repudiandae dolores accusamus earum, aperiam voluptatem voluptatum sed, ab adipisci ipsum. Atque voluptatum quasi aspernatur, possimus laborum unde nobis culpa nam. Unde vitae sit praesentium tenetur voluptatum dicta commodi illo ipsam ratione obcaecati asperiores error similique, reiciendis aliquid maiores officia dolores quidem animi omnis nostrum vero alias facilis tempore? Et molestias omnis, eum explicabo ex reiciendis quia ad laboriosam perferendis obcaecati alias facere error quis fugiat dolor doloremque quas deleniti voluptas a quae hic consectetur veniam. Ea asperiores quaerat molestiae numquam magni reiciendis necessitatibus qui praesentium quam modi illo non facere nam nobis nemo accusantium, amet iusto. In cum dicta totam harum aliquid impedit velit quibusdam ullam optio inventore nobis est quaerat iusto voluptatem ad praesentium veniam, illum provident consequuntur ab explicabo sed eos! Ea asperiores rerum aut repellat labore eum, maiores deleniti, modi ex, dolore quasi.</p>
+</body>
+</html>
